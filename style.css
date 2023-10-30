@@ -1,0 +1,60 @@
+body{
+  			background-image: url('https://w0.peakpx.com/wallpaper/490/194/HD-wallpaper-light-orange-color-shades-pattern-pink.jpg');
+  			background-repeat: no-repeat;
+  			background-attachment: fixed;
+ 			background-size: cover;
+		}
+		.calc {
+			background-color: lightcyan;
+			height: 380px;
+			width: 245px;
+			margin: 7% 40%;
+			border-radius: 20px;
+			padding: 20px;
+			box-shadow: 0px 0px 8px black;
+		}
+
+		input {
+			width: 50px;
+			height: 50px;
+			background-color: gray;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			margin: 4px;
+			font-weight: bolder;
+			transition-duration: 0.4s;
+			font-size: 15px;
+		}
+
+		.operator {
+			background-color: orange;
+			color: black;
+		}
+
+		.ac {
+			width: 112px;
+			margin-right: 4px;
+		}
+
+		.op {
+			height: 70px;
+			width: 230px;
+			background-color: black;
+			margin-bottom: 15PX;
+		}
+
+		#allclear {
+			background-color: orange;
+			color: black;
+
+		}
+
+		.operator:hover {
+			transform: scale(0.9);
+		}
+
+		input[type="button"]:hover {
+			transform: scale(0.9);
+			box-shadow: 0px 0px 7px orangered;
+		}
